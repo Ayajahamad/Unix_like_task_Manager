@@ -1,0 +1,23 @@
+unix_like_task_manager/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models/
+│   │   └── task_model.py
+│   ├── schemas/
+│   │   └── task_schema.py
+│   ├── db/
+│   │   ├── session.py
+│   │   └── base.py
+│   ├── crud/
+│   │   └── task_crud.py
+│   ├── api/
+│   │   └── task_routes.py
+│   ├── core/
+│   │   └── config.py
+│
+├── .env
+├── requirements.txt
+└── README.md
+|-- venv
