@@ -4,28 +4,7 @@ A simple and interactive **Unix-inspired Task Manager** REST API built with **Fa
 
 ## 📂 Project Structure
 
-unix_like_task_manager/
-│
-├── app/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── models/
-│   │   └── task_model.py
-│   ├── schemas/
-│   │   └── task_schema.py
-│   ├── db/
-│   │   ├── session.py
-│   │   └── base.py
-│   ├── crud/
-│   │   └── task_crud.py
-│   ├── api/
-│   │   └── task_routes.py
-│   ├── core/
-│   │   └── config.py
-│
-├── .env
-├── requirements.txt
-└── README.md
+<pre> <code>```bash unix_like_task_manager/ │ ├── app/ │ ├── __init__.py │ ├── main.py │ ├── models/ │ │ └── task_model.py │ ├── schemas/ │ │ └── task_schema.py │ ├── db/ │ │ ├── session.py │ │ └── base.py │ ├── crud/ │ │ └── task_crud.py │ ├── api/ │ │ └── task_routes.py │ ├── core/ │ │ └── config.py │ ├── .env ├── requirements.txt └── README.md ```</code> </pre>
 
 ## 🔧 Features
 
