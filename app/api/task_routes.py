@@ -46,7 +46,7 @@ def delete_task(task_id: int, db: Session = Depends(get_db)):
     return {"message": "Task deleted successfully"}
 
 
-@router.delete("/tasks", status_code=status.HTTP_204_NO_CONTENT)
+@router.delete("/tasks/", status_code=status.HTTP_204_NO_CONTENT)
 def delete_all_tasks(db: Session = Depends(get_db)):
     task_crud.delete_all_tasks(db)
     return {"message": "All tasks have been deleted."}
