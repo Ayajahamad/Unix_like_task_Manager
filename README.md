@@ -26,7 +26,10 @@ unix_like_task_manager/
 ├── .env
 ├── requirements.txt
 └── README.md
+<<<<<<< HEAD
 |-- venv
+=======
+>>>>>>> b37e4bdbc85bfb096f43172db9f9144e61bdf9bf
 
 
 ## 🔧 Features
